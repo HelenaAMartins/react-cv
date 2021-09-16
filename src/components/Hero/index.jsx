@@ -24,7 +24,7 @@ const Hero = () => {
         </AboutPhoto>
         <AboutText>{language}</AboutText>
         <Social />
-        <Arrow href="#portfolio">
+        <Arrow href="#projects">
           <svg id="more-arrows">
             <polygon
               class="arrow-top"

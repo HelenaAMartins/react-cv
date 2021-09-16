@@ -15,6 +15,10 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
   margin: 0;
   font-family: "Open Sans", sans-serif;

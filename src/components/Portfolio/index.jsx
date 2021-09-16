@@ -4,9 +4,9 @@ import Carousel from '../Carousel';
 
 const Portfolio = () => {
   return(
-    <Section>
+    <Section id="projects">
       <Container>
-        <SliderTitle>Portfolio</SliderTitle>
+        <SliderTitle>Featured Projects</SliderTitle>
         <PortfolioItems>
 
         <Carousel />
