@@ -8,13 +8,14 @@ import { CarouselItem } from "./styles";
 
 const Carousel = () => {
   const { rspData, fetchData } = useAxiosHook();
+
   useEffect(() => {
     const url = "https://api.github.com/users/helenaamartins/repos";
-
-
     fetchData(url, "GET");
+    // eslint-disable-next-line
   }, []);
-
+  
+  const excludeIds = [357646759, 357243422, 392445421, 400655623, 383202924, 373942598, 341371443, 370479085]
   const settings = {
     dots: true,
     infinite: true,
@@ -49,7 +50,7 @@ const Carousel = () => {
       },
     ],
   };
-  const excludeIds = [357646759, 357243422, 392445421, 400655623, 383202924, 373942598, 341371443, 370479085]
+  
   return (
     <Slider {...settings}>
       {rspData.data &&
