@@ -1,0 +1,57 @@
+.grid-with-cards p {
+	font-weight: 100;
+}
+
+#email-form #field-2 {
+    box-sizing: content-box;
+    padding: 5px 0px 5px 15px;
+    max-width: -webkit-fill-available;
+}
+
+.fix-padding-bottom{
+	padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px){
+	.fix-padding-bottom{
+		padding-bottom: 80px;
+	}
+ }   
+
+ @media screen and (min-width: 1268px){
+  .fix-slider-gallery{ 
+    right: -20% !important; 
+   }
+ }
+ @media screen and (min-width: 1380px){
+  .fix-slider-gallery{ 
+    right: -35% !important; 
+   }
+ }
+   @media screen and (min-width: 1600px){
+	.fix-slider-gallery{ 
+    	right: -50% !important; 
+    }
+   }
+
+.ux-link {
+  font-weight: 100;
+}
+
+.other-services-grid p {
+  color: black;
+}
+
+.wysiwyg {
+  width: 90%;
+  margin:auto;
+  max-width: 1400px;
+  margin-bottom: 4rem;
+}
+.wysiwyg p, h1, h2, h3, h6{
+ margin: 16px 0;
+ white-space: normal !important;
+}
+.wysiwyg ul {
+ padding-left : 40px !important;
+}

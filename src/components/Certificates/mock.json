@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Front-end",
+    "where": "Alura",
+    "status": "In progress",
+    "icon": "front-end"
+  },
+  {
+    "title": "Python",
+    "where": "Alura",
+    "status": "In Progress",
+    "icon": "python"
+  },
+  {
+    "title": "React Profissional",
+    "where": "Udemy",
+    "status": "In Progress",
+    "icon": "reactUdemy"
+  },
+  {
+    "title": "Front-end Begginers",
+    "where": "Faculdade IV2",
+    "status": "2021",
+    "icon": "iv2"
+  },
+  {
+    "title": "Letras Eng-Pt",
+    "where": "UFC",
+    "status": "2007-2013",
+    "icon": "letrasUfc"
+  },
+  {
+    "title": "Advanced English (C1)",
+    "where": "Cambridge",
+    "status": "2016",
+    "icon": "cae"
+  }
+]
