@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Hero = () => {
   const languages = {
     ptBr: "Olá! Meu nome é Helena Martins, sou uma desenvolvedora frontend junior brasileira. No momento, faço cursos na Alura, na Faculdade iv2, além de outros, para desenvolver minhas habilidades. Minhas habilidades principais são HTML5, CSS3 e Javascript. Também sou fluente em inglês.",
-    eng:  "Hello! My name's Helena Martins, and I'm a Brazilian front-end developer junior. I am taking couses at Alura, Faculdade iv2 and other institutions in order to develop my skills. My main skills are HTML5, CSS3 and Javascript. I'm also a fluent English speaker."
+    eng:  "Hello! My name's Helena Martins, and I'm a Brazilian front-end developer junior. I am taking courses at Alura, Faculdade iv2 and other institutions in order to develop my skills. My main skills are HTML5, CSS3 and Javascript. I'm also a fluent English speaker."
   }  
   const [language, setLanguage] = useState(languages.eng)
   

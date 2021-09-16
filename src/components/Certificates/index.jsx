@@ -11,7 +11,7 @@ import Card from "./Card";
 const Certificates = () => (
   <CertificatesSection>
     <Container>
-      <CertificatesTitle>Certificados & Cursos</CertificatesTitle>
+      <CertificatesTitle>Certificates & Courses</CertificatesTitle>
       <CertificatesWrap>
         {Mock.map((certificate) => {
           return <Card data={certificate} />;
